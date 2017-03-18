@@ -1,21 +1,17 @@
 {
   "name": "citeproc",
-  "version": "1.0.6",
-  "description": "A wrapper for citeproc-js.",
-  "main": "citeproc-wrapper.js",
+  "version": "2.0.0",
+  "description": "The citeproc-js citation formatting module, in common-js format.",
+  "main": "citeproc-obj.js",
   "repository": {
     "type" : "git",
     "url" : "https://github.com/michaelmcmillan/citeproc-node-iojs.git"
   },
-  "scripts": {
-    "test": "./node_modules/mocha/bin/mocha test/*.js"
-  },
   "author": "Michael McMillan <email@michaelmcmillan.net> (http://michaelmcmillan.net/)",
-  "license": "ISC",
-  "dependencies": {
-    "jsdom": "^5.0.1"
-  },
-  "devDependencies": {
-    "mocha": "^2.2.4"
-  }
+  "contributors": [
+      "Frank Bennett <biercenator@gmail.com> (https://juris-m.github.io)"
+  ],
+  "license": "CPAL-1.0 OR AGPL-1.0",
+  "dependencies": {},
+  "devDependencies": {}
 }

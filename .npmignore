@@ -1,0 +1,5 @@
+*~
+*.tgz
+.npmignore
+node_modules
+build.sh

@@ -1,10 +1,12 @@
-# citeproc-node-iojs
-A working citeproc-js wrapper for node and iojs.
+# citeproc-node-iojs ('citeproc' in npm)
+The citeproc.js citation formatting module, in common-js format.
 
-To download the styles and languages required for this module to work, run the following:
-````bash
-git submodule add git@github.com:citation-style-language/styles.git
-git submodule add git@github.com:citation-style-language/locales.git
-````
+This package can be referenced as a dependency in projects that
+make use of the citation processor. To add the raw (uninstantiated)
+object to your project, use an incantation like this:
 
-Reference them when calling the wrapper. See test/test.js for how to do that.
+:  var CSL = require('citeproc');
+
+Processor documentation and examples are available on
+[ReadTheDocs](http://citeproc-js.readthedocs.io/en/latest/).
+
