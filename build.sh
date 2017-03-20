@@ -5,7 +5,7 @@ set -e
 SCRIPT_DIR="$(pwd)"
 
 cd "${SCRIPT_DIR}"
-cd ../../JM/citeproc-js
+cd ../JM/citeproc-js
 ./test.py -B
 cat <<EOT > "${SCRIPT_DIR}"/citeproc-obj.js
 $(cat citeproc.js)
